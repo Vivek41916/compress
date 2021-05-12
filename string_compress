@@ -1,0 +1,5 @@
+from itertools import *
+s=input()
+for k,v in groupby(s):
+    t=(len(list(v)),int(k))
+    print(t,end=' ')
